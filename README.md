@@ -6,8 +6,8 @@ cmsrel CMSSW_8_0_26_patch1
 cd CMSSW_8_0_26_patch1/src
 cmsenv
 git cms-init
-git clone git@github.com:NEUAnalyses/monoZ_Analysis.git
-source monoZ_Analysis/setup.sh
+git clone git@github.com:NEUAnalyses/monoZ_Analysis.git Analysis/monoZ
+source Analysis/monoZ/setup.sh
 ```
 You will still need to compile 
 ```bash 
